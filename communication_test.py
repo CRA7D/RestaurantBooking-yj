@@ -26,8 +26,3 @@ class TestableMailSender(MailSender):
 
     def get_count_send_mail_is_called(self):
         return self.__count_send_mail_is_called
-
-
-class TestSmsSender(TestCase):
-    def test_send(self):
-        self.fail()
